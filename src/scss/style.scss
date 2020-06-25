@@ -1,0 +1,165 @@
+$icon-size:80px;
+$dark-overlay:rgba(0,0,0,0.4);
+
+
+.navbar{
+  background: #212529;	
+  .nav-item{
+    padding-left:1em;
+
+    .nav-link{
+      text-transform: uppercase;
+    }
+  }
+}
+
+.carousel-item{
+  background: #212529;
+ height:450px;
+}
+.carousel-img-1{
+  background: url('../img/99.jpg');
+  background-size:cover;
+
+}
+.carousel-img-2{
+  background: url('../img/5.jpg');
+  background-size:cover;
+}
+.carousel-img-3{
+  background: url('../img/3.jpg');
+  background-size:cover;
+}
+
+
+#homeicon{
+.fa{
+  font-size:$icon-size ;
+}
+
+}
+
+
+#getstrated{
+
+  background: url('../img/1.jpg');
+  background-size:cover;
+  background-attachment:fixed;
+  background-repeat:no-repeat ;
+  min-height: 250px;
+  height: 100%;
+
+  .overly{
+    background-color: $dark-overlay;
+    margin-top:-46px;
+    margin-bottom:-46px;
+    min-height: 250px;
+    height: 100%;
+    
+
+  }
+
+}
+#home-video{
+  background: url('../img/5.jpg');
+  background-size:cover;
+  background-attachment:fixed;
+  background-repeat:no-repeat ;
+  min-height: 250px;
+
+  .overly-video{
+    background-color: $dark-overlay;
+    min-height: 250px;
+    height: 100%;
+    .fa{
+      font-size:$icon-size ;
+      color:#ff0000;
+    }
+
+  }
+
+}   
+
+
+#copyright{
+  background: #000;
+}
+
+#aboutheader{
+  background: url('../img/note-9-new-xl-1920x1080.jpg');
+  background-size: cover;
+  height: 200px;
+  background-attachment: fixed;
+}
+#serviceheader{
+  background: url('../img/41.jpg');
+  background-size: cover;
+  height: 200px;
+  background-attachment: fixed;
+
+}
+#blogheader{
+  background: url('../img/330.jpg');
+  background-size: cover;
+  height: 200px;
+  background-attachment: fixed;
+  
+}
+#blogeheader{
+  background: url('../img/10.jpg');
+  background-size: cover;
+  height: 200px;
+  background-attachment: fixed;
+  
+}
+#about-info{
+  img{
+    width: 450px;
+    height: 450px;
+  }
+}
+#service-info{
+  img{
+    width: 450px;
+    height: 450px;
+  }
+}
+
+
+
+#icon-boxes{
+  .fa{
+    font-size: $icon-size;
+  }
+}
+
+
+
+
+
+
+
+
+
+@media(max-with:360px){
+
+  #showcase{
+
+
+    .carousel{
+      h2{
+        font-size: 2.5rem;
+      }
+    }
+  }
+  
+}
+
+
+ @media(max-with:767px){
+   
+  .nav-item{
+    padding-left: 0;
+  }
+
+ }

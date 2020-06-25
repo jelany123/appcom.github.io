@@ -1,0 +1,99 @@
+.navbar {
+  background: #212529; }
+  .navbar .nav-item {
+    padding-left: 1em; }
+    .navbar .nav-item .nav-link {
+      text-transform: uppercase; }
+
+.carousel-item {
+  background: #212529;
+  height: 450px; }
+
+.carousel-img-1 {
+  background: url("../img/99.jpg");
+  background-size: cover; }
+
+.carousel-img-2 {
+  background: url("../img/5.jpg");
+  background-size: cover; }
+
+.carousel-img-3 {
+  background: url("../img/3.jpg");
+  background-size: cover; }
+
+#homeicon .fa {
+  font-size: 80px; }
+
+#getstrated {
+  background: url("../img/1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 250px;
+  height: 100%; }
+  #getstrated .overly {
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-top: -46px;
+    margin-bottom: -46px;
+    min-height: 250px;
+    height: 100%; }
+
+#home-video {
+  background: url("../img/5.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 250px; }
+  #home-video .overly-video {
+    background-color: rgba(0, 0, 0, 0.4);
+    min-height: 250px;
+    height: 100%; }
+    #home-video .overly-video .fa {
+      font-size: 80px;
+      color: #ff0000; }
+
+#copyright {
+  background: #000; }
+
+#aboutheader {
+  background: url("../img/note-9-new-xl-1920x1080.jpg");
+  background-size: cover;
+  height: 200px;
+  background-attachment: fixed; }
+
+#serviceheader {
+  background: url("../img/41.jpg");
+  background-size: cover;
+  height: 200px;
+  background-attachment: fixed; }
+
+#blogheader {
+  background: url("../img/330.jpg");
+  background-size: cover;
+  height: 200px;
+  background-attachment: fixed; }
+
+#blogeheader {
+  background: url("../img/10.jpg");
+  background-size: cover;
+  height: 200px;
+  background-attachment: fixed; }
+
+#about-info img {
+  width: 450px;
+  height: 450px; }
+
+#service-info img {
+  width: 450px;
+  height: 450px; }
+
+#icon-boxes .fa {
+  font-size: 80px; }
+
+@media (max-with: 360px) {
+  #showcase .carousel h2 {
+    font-size: 2.5rem; } }
+
+@media (max-with: 767px) {
+  .nav-item {
+    padding-left: 0; } }
